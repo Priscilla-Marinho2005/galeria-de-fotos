@@ -22,7 +22,7 @@ function Galery({ searchTerm }: GaleryProps) {
           { id: 9, url: 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=300&fit=crop', name: 'Grande Ponte' },
           { id: 10, url: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=400&h=300&fit=crop', name: 'Campo de Pedras' },
           { id: 11, url: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&h=300&fit=crop', name: 'Montanha Rochosa' },
-          { id: 12, url: 'https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=400&h=300&fit=crop', name: 'Deserto Dourado' },
+          { id: 12, url: 'https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=400&h=300&fit=crop', name: 'Pôr do Sol na Praia' },
      ];
 
      const filteredPhotos = photos.filter(photo =>
