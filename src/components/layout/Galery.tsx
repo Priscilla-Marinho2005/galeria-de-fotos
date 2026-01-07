@@ -49,6 +49,7 @@ function Galery({ searchTerm }: GaleryProps) {
                                         <img
                                              src={photo.url}
                                              alt={photo.name}
+                                             title={photo.name}
                                              className="w-full h-full object-cover"
                                         />
                                    </div>
