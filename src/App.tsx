@@ -1,13 +1,13 @@
 import Header from "./components/layout/Header";
 import Galery from "./components/layout/Galery";
-import Search from "./components/layout/Search";
+import SearchField from "./components/layout/SearchField";
 import Footer from "./components/layout/Footer";  
 function App() {
 
   return (
     <div>
       <Header/>
-      <Search/>
+      <SearchField/>
       <Galery/>
       <Footer/>
     </div>
