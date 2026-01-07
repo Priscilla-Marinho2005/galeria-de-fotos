@@ -13,12 +13,16 @@ function Galery({ searchTerm }: GaleryProps) {
      const photos: Photo[] = [
           { id: 1, url: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop', name: 'Montanha Nevada' },
           { id: 2, url: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=300&fit=crop', name: 'Praia Tropical' },
-          { id: 3, url: 'https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=400&h=300&fit=crop', name: 'Floresta Verde' },
+          { id: 3, url: 'https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=400&h=300&fit=crop', name: 'Floresta na Chuva' },
           { id: 4, url: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&h=300&fit=crop', name: 'Céu Estrelado' },
           { id: 5, url: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop', name: 'Montanhas Tranquilas' },
           { id: 6, url: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400&h=300&fit=crop', name: 'Pôr do Sol' },
           { id: 7, url: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop', name: 'Trilha na Floresta' },
-          { id: 8, url: 'https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=400&h=300&fit=crop', name: 'Vale Verde' }
+          { id: 8, url: 'https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=400&h=300&fit=crop', name: 'Vale Verde' },
+          { id: 9, url: 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=300&fit=crop', name: 'Grande Ponte' },
+          { id: 10, url: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=400&h=300&fit=crop', name: 'Campo de Pedras' },
+          { id: 11, url: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&h=300&fit=crop', name: 'Montanha Rochosa' },
+          { id: 12, url: 'https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=400&h=300&fit=crop', name: 'Deserto Dourado' },
      ];
 
      const filteredPhotos = photos.filter(photo =>
