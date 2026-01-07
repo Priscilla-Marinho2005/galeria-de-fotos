@@ -1,12 +1,17 @@
 import { Search } from "lucide-react"
 
-function SearchField() {
+interface SearchFieldProps {
+     searchTerm: string;
+     setSearchTerm: (term: string) => void;
+}
+
+function SearchField({ searchTerm, setSearchTerm }: SearchFieldProps) {
 
      return (
           <div className="poppins flex justify-center my-6 px-4">
                <div className="
                flex items-center gap-2 w-full max-w-xl 
-               border border-gray-300 rounded-2xl 
+               border border-gray-300 rounded-2xl shadow-lg
                p-2 focus-within:ring-2 focus-within:ring-violet-500 transition">
 
                     <input
@@ -14,6 +19,8 @@ function SearchField() {
                          placeholder="Pesquise o nome da foto..."
                          aria-label="Campo de busca"
                          className="flex-1 bg-transparent outline-none max-w-full"
+                         value={searchTerm}
+                         onChange={(e) => setSearchTerm(e.target.value)}
                     />
 
                     <button className="bg-[#8B5CF6] hover:bg-violet-600 transition rounded-2xl p-1.5">
