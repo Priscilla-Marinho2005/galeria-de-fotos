@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { useState } from 'react';
 import Header from "./components/layout/Header";
 import Galery from "./components/layout/Galery";
@@ -24,6 +25,7 @@ function App() {
       <Galery searchTerm={searchTerm} />
 
       <Footer />
+      <Analytics />
     </div>
   )
 }
