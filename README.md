@@ -7,26 +7,26 @@
 
 Uma aplicação web moderna e responsiva para visualização e pesquisa de fotos, desenvolvida como projeto para o **Processo Seletivo da Aceleradora Ágil - Turma 29 (2026/1º Semestre)**.
 
-## 🚀 [Ver Demo ao Vivo](https://galeria-de-fotos-six-teal.vercel.app/)
+## [Ver Demo ao Vivo](https://galeria-de-fotos-six-teal.vercel.app/)
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 A Galeria de Fotos é uma aplicação que permite aos usuários visualizar, filtrar e pesquisar imagens através de uma interface intuitiva e elegante. O projeto foi desenvolvido com foco em usabilidade, performance e design moderno e responsivo.
 
-### ✨ Funcionalidades
+### Funcionalidades
 
-- 🔍 **Busca em Tempo Real**: Filtre fotos instantaneamente enquanto digita.
-- 🌓 **Modo Escuro/Claro**: Alterne entre temas para melhor conforto visual.
-- 📱 **Design Responsivo**: Layout adaptativo para todos os dispositivos.
-- 🎨 **Efeitos Interativos**: Animações suaves ao passar o mouse sobre as imagens.
-- ⚡ **Performance Otimizada**: Carregamento rápido e navegação fluida.
-- ♿ **Acessível**: Interface pensada para todos os usuários.
+- **Busca em Tempo Real**: Filtre fotos instantaneamente enquanto digita.
+- **Modo Escuro/Claro**: Alterne entre temas para melhor conforto visual.
+- **Design Responsivo**: Layout adaptativo para todos os dispositivos.
+- **Efeitos Interativos**: Animações suaves ao passar o mouse sobre as imagens.
+- **Performance Otimizada**: Carregamento rápido e navegação fluida.
+- **Acessível**: Interface pensada para todos os usuários.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Core
 - **[React](https://react.dev/)** - Biblioteca JavaScript para construção de interfaces.
@@ -41,7 +41,7 @@ A Galeria de Fotos é uma aplicação que permite aos usuários visualizar, filt
 
 ---
 
-## 🎨 Paleta de Cores
+## Paleta de Cores
 
 | Cor | Hexadecimal | Uso |
 |-----|-------------|-----|
@@ -61,7 +61,7 @@ background: linear-gradient(to bottom right, #8B5CF6, #C084FC);
 
 ---
 
-## 📦 Instalação e Execução
+## Instalação e Execução
 
 ### Pré-requisitos
 - Node.js 18+ 
@@ -104,7 +104,7 @@ yarn build
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 galeria-de-fotos/
@@ -139,7 +139,7 @@ galeria-de-fotos/
 
 ---
 
-## 🎯 Requisitos Atendidos
+## Requisitos Atendidos
 
 ### Layout
 - ✅ Cabeçalho com título centralizado.
@@ -165,7 +165,7 @@ galeria-de-fotos/
 
 ---
 
-## 📱 Responsividade
+## Responsividade
 
 O layout se adapta perfeitamente a diferentes tamanhos de tela:
 
@@ -176,26 +176,24 @@ O layout se adapta perfeitamente a diferentes tamanhos de tela:
 
 ---
 
-## 📄 Licença
+## Objetivo
 
 Este projeto foi desenvolvido para fins educacionais como parte do processo seletivo da Aceleradora Ágil.
 
 ---
 
-## 👩‍💻 Autora
+## Autora
 
 **Priscilla Marinho Falcão**
 
-- 🌐 [Portfólio](https://priscilla-marinho-falcao.vercel.app/)
-- 💼 [LinkedIn](https://www.linkedin.com/in/priscilla-marinho-falc%C3%A3o/)
-- 📧 Email: priscillamarinho2005@gmail.com
+- [Portfólio](https://priscilla-marinho-falcao.vercel.app/)
+- [LinkedIn](https://www.linkedin.com/in/priscilla-marinho-falc%C3%A3o/)
+- Email: priscillamarinho2005@gmail.com
 
 ---
 
 <div align="center">
-  
-### ⭐ Se você gostou deste projeto, considere dar uma estrela!
 
-**Desenvolvido com 💜 por Priscilla Marinho Falcão | Janeiro de 2026**
+**Desenvolvido por Priscilla Marinho Falcão | Janeiro de 2026**
 
 </div>
