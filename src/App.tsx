@@ -6,17 +6,23 @@ import Footer from "./components/layout/Footer";
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
 
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
   return (
-    <div>
+    <div className={`min-h-screen flex flex-col transition-colors duration-300 
+      ${isDarkMode ? 'bg-gray-900' : 'bg-gray-50'}
+      `}>
       <Header />
 
       <SearchField
-        searchTerm={searchTerm}
+        searchTerm={searchTerm} 
         setSearchTerm={setSearchTerm}
+        isDarkMode={isDarkMode}
+        setIsDarkMode={setIsDarkMode}
       />
 
-        <Galery searchTerm={searchTerm} />
-        
+      <Galery searchTerm={searchTerm} />
+
       <Footer />
     </div>
   )
