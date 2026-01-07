@@ -3,7 +3,7 @@ import { Search } from "lucide-react"
 function SearchField() {
 
      return (
-          <div className="flex justify-center my-6 px-4">
+          <div className="poppins flex justify-center my-6 px-4">
                <div className="
                flex items-center gap-2 w-full max-w-xl 
                border border-gray-300 rounded-2xl 
